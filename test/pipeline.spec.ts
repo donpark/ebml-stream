@@ -1,4 +1,6 @@
 import assert from 'assert';
+import { Buffer } from 'buffer';
+
 import { EbmlStreamDecoder } from '../src/EbmlStreamDecoder';
 import { EbmlStreamEncoder } from '../src/EbmlStreamEncoder';
 import { EbmlTag } from '../src/models/EbmlTag';

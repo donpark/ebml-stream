@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { EbmlTagPosition } from "./enums/EbmlTagPosition";
 import { EbmlTagId } from "./enums/EbmlTagId";
 import { EbmlElementType } from "./enums/EbmlElementType";

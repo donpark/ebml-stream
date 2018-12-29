@@ -1,4 +1,6 @@
 import assert from 'assert';
+import { Buffer } from 'buffer';
+
 import { Tools as tools } from '../src/Tools';
 import "jasmine";
 

@@ -1,4 +1,6 @@
 import { Transform, TransformOptions, TransformCallback } from 'stream';
+import { Buffer } from 'buffer';
+
 import { EbmlTag } from './models/EbmlTag';
 import { EbmlTagPosition } from './models/enums/EbmlTagPosition';
 import { EbmlTagId } from './models/enums/EbmlTagId';

@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { EbmlDataTag } from "./EbmlDataTag";
 import { BlockLacing } from "../enums/BlockLacing";
 import { Tools } from "../../Tools";

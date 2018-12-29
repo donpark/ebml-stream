@@ -28,7 +28,9 @@
     "matroska",
     "format"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "buffer": "^5.2.1"
+  },
   "devDependencies": {
     "@types/jasmine": "^2.8.8",
     "@types/node": "^10.10.1",

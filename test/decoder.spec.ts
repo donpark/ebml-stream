@@ -1,4 +1,6 @@
 import assert from 'assert';
+import { Buffer } from 'buffer';
+
 import { EbmlStreamDecoder as Decoder } from '../src/EbmlStreamDecoder';
 import "jasmine";
 import { EbmlTagPosition } from '../src/models/enums/EbmlTagPosition';

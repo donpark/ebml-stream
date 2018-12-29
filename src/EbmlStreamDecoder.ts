@@ -1,4 +1,6 @@
 import { Transform, TransformOptions, TransformCallback } from 'stream';
+import { Buffer } from 'buffer';
+
 import { Tools as tools } from './Tools';
 import { EbmlTag } from './models/EbmlTag';
 import { EbmlElementType } from './models/enums/EbmlElementType';

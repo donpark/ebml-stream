@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { Tools } from "../../Tools";
 import { Block } from "./Block";
 import { EbmlTagId } from "../enums/EbmlTagId";

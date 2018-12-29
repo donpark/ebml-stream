@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 export class Tools {
   static readVint(buffer: Buffer | Uint8Array, start: number = 0): {length: number, value: number} {
     const length = 8 - Math.floor(Math.log2(buffer[start]));
