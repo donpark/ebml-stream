@@ -1,4 +1,4 @@
-import { Buffer } from 'buffer';
+import { Buffer } from 'buffer/';
 
 import { EbmlDataTag } from "./EbmlDataTag";
 import { BlockLacing } from "../enums/BlockLacing";
@@ -48,7 +48,9 @@ export class Block extends EbmlDataTag {
             break;
         }
 
-        return Buffer.of(flags);
+        let value = Buffer.alloc(1);
+        value.writeUInt8(flags, 0);
+        return value;
     }
 
     encodeContent(): Buffer {

@@ -1,4 +1,4 @@
-import { Buffer } from 'buffer';
+import { Buffer } from 'buffer/';
 
 export class Tools {
   static readVint(buffer: Buffer | Uint8Array, start: number = 0): {length: number, value: number} {

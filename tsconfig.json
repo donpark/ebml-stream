@@ -3,7 +3,7 @@
     "src/**/*.ts"
   ],
   "compilerOptions": {
-    "target": "es6", 
+    "target": "es2018", 
     "module": "commonjs", 
     "declaration": true,
     "outDir": "./lib", 
@@ -17,8 +17,11 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node", 
+    "lib": [
+      "es2018",
+      "dom"
+    ],
     "types": [
-      "node"
     ],
     "esModuleInterop": true
   }

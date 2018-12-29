@@ -1,4 +1,4 @@
-import { Buffer } from 'buffer';
+import { Buffer } from 'buffer/';
 
 import { Tools } from "../../Tools";
 import { Block } from "./Block";

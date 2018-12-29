@@ -1,4 +1,4 @@
-import { Buffer } from 'buffer';
+import { Buffer } from 'buffer/';
 
 import { EbmlTag } from "../EbmlTag";
 import { EbmlElementType } from "../enums/EbmlElementType";

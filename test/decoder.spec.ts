@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { Buffer } from 'buffer';
+import { Buffer } from 'buffer/';
 
 import { EbmlStreamDecoder as Decoder } from '../src/EbmlStreamDecoder';
 import "jasmine";
